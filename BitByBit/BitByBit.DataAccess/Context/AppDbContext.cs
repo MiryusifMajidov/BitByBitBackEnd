@@ -14,7 +14,7 @@ namespace BitByBit.DataAccess.Context
 
         // Custom DbSets
         public DbSet<Room> Rooms { get; set; }
-        public DbSet<Services> Services { get; set; }
+        public DbSet<Service> Services { get; set; }
         public DbSet<Images> Images { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
 
@@ -108,7 +108,7 @@ namespace BitByBit.DataAccess.Context
             });
 
             // Services entity configuration
-            modelBuilder.Entity<Services>(entity =>
+            modelBuilder.Entity<Service>(entity =>
             {
                 entity.Property(e => e.ServiceName)
                       .IsRequired()

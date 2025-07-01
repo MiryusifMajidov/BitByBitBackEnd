@@ -265,11 +265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj",
       "projectName": "BitByBit.Core",
-      "projectPath": "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBit.Core\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

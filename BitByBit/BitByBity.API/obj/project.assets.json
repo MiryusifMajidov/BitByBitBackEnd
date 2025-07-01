@@ -2361,6 +2361,7 @@
           "BitByBit.DataAccess": "1.0.0",
           "BitByBit.Entities": "1.0.0",
           "FluentValidation": "12.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Microsoft.AspNetCore.Identity": "2.3.1",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.6"
         },
@@ -6335,11 +6336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBity.API\\BitByBity.API.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\BitByBity.API.csproj",
       "projectName": "BitByBity.API",
-      "projectPath": "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBity.API\\BitByBity.API.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\BitByBity.API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBity.API\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6361,11 +6362,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj"
+            "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj"
+            "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj"
             }
           }
         }

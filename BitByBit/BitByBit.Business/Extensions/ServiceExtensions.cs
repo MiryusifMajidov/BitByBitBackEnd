@@ -2,6 +2,8 @@
 using BitByBit.Business.Services.Implementations;
 using BitByBit.Business.Services.Interfaces;
 using BitByBit.Core.Models;
+using BitByBit.DataAccess.Repository.Interfaces;
+using BitByBit.DataAccess.Repository.Implementations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -26,6 +28,14 @@ namespace BitByBit.Business.Extensions
 
             // 🔐 JWT Service - YENİ ƏLAVƏ EDİLDİ
             services.AddScoped<IJwtService, JwtService>();
+
+            // ✅ REPOSITORY SERVİSLƏRİ - Data Access Layer
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+            // ✅ ƏLAVƏ EDİLƏN SERVİSLƏR - Controller xətalarını aradan qaldırmaq üçün
+            services.AddScoped<IReservationService, ReservationService>();
+            services.AddScoped<IRoomService, RoomService>();
+            services.AddScoped<IServicesService, ServicesService>();
 
             // Future services (if needed)
             // services.AddScoped<IFileService, FileService>();

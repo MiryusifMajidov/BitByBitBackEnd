@@ -143,44 +143,88 @@ namespace BitByBity.API
                 options.AddPolicy("EmailConfirmed", policy => policy.RequireClaim("emailConfirmed", "True"));
             });
 
-            // CORS (if needed for frontend)
+            // 🔧 CORS DÜZGÜN KONFİQURASİYASI - AUTHENTICATION İLƏ UYĞUN
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowAll", policy =>
+                options.AddPolicy("AllowFrontend", policy =>
                 {
-                    policy.AllowAnyOrigin()
-                          .AllowAnyHeader()
-                          .AllowAnyMethod();
+                    policy.WithOrigins(
+                            "http://localhost:3000",   
+                            "http://localhost:5173",   
+                            "http://localhost:5174",   
+                            "http://localhost:8080",   
+                            "http://localhost:4200",   
+                            "https://localhost:3000",   
+                            "https://localhost:5173",
+                            "https://localhost:5174"
+                        )
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();           
+                });
+
+              
+                options.AddPolicy("DevelopmentOnly", policy =>
+                {
+                    policy.SetIsOriginAllowed(origin =>
+                    {
+                        if (string.IsNullOrEmpty(origin)) return false;
+
+                   
+                        try
+                        {
+                            var uri = new Uri(origin);
+                            return uri.Host == "localhost" || uri.Host == "127.0.0.1";
+                        }
+                        catch
+                        {
+                            return false;
+                        }
+                    })
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();
                 });
             });
 
-            // Build app
+          
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline
+           
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "BitByBit API V1");
-                    c.RoutePrefix = string.Empty; // Swagger-i root-da göstər
+                    c.RoutePrefix = string.Empty;
                 });
             }
 
-            // Pipeline ORDER ÇOX MÜHİMDİR!
+           
             app.UseHttpsRedirection();
-            app.UseCors("AllowAll");        // CORS
-            app.UseAuthentication();        // 🔐 Authentication (JWT) - AUTHORIZATION-dan ƏVVƏL
-            app.UseAuthorization();         // 🛡️ Authorization - AUTHENTICATION-dan SONRA
+
+            
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseCors("DevelopmentOnly"); 
+            }
+            else
+            {
+                app.UseCors("AllowFrontend");    
+            }
+
+            app.UseAuthentication();        
+            app.UseAuthorization();         
             app.MapControllers();
 
             // Test endpoints
             app.MapGet("/", () => new {
-                Message = "BitByBit API işləyir! 🚀",
+                Message = "BitByBit API işləyir! ",
                 Time = DateTime.Now,
                 JWT = "Enabled ✅",
-                Auth = "Bearer Token Required 🔐"
+                Auth = "Bearer Token Required ",
+                CORS = "Fixed for Frontend "
             });
 
             app.MapGet("/test", () => new {
@@ -189,7 +233,6 @@ namespace BitByBity.API
                 Environment = app.Environment.EnvironmentName
             });
 
-            // JWT Test endpoint (public)
             app.MapGet("/jwt-test", () => new {
                 Message = "JWT Test Endpoint",
                 JwtSettings = new
@@ -198,6 +241,13 @@ namespace BitByBity.API
                     Audience = jwtSettings?.Audience,
                     ExpiryHours = jwtSettings?.ExpiryHours
                 }
+            });
+
+            // CORS test endpoint
+            app.MapGet("/cors-test", () => new {
+                Message = "CORS Test Successful! ",
+                Time = DateTime.Now,
+                Headers = "Allow-Credentials: true"
             });
 
             app.Run();

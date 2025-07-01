@@ -23,4 +23,9 @@
     <ProjectReference Include="..\BitByBit.Core\BitByBit.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\Icons\" />
+  </ItemGroup>
+
 </Project>

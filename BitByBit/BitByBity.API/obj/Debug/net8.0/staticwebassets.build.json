@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "MdVmiFZj5NYJ4gj9lWRaHeA0KVOt5qjnBsca/oXv9UI=",
+  "Hash": "EsHeu0KSxCgZyf0uyXpnNb/j9HLb4V7xJ6Je0tcEcfA=",
   "Source": "BitByBity.API",
   "BasePath": "_content/BitByBity.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BitByBity.API\\wwwroot",
+      "Source": "BitByBity.API",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\wwwroot\\",
+      "BasePath": "_content/BitByBity.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }
