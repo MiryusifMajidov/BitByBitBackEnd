@@ -2,6 +2,7 @@
 using BitByBit.Core.Models;
 using BitByBit.DataAccess.Context;
 using BitByBit.Entities.Models;
+using BitByBit.Entities.Enums;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +13,7 @@ namespace BitByBity.API
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)  // ✅ async Main
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -109,11 +110,11 @@ namespace BitByBity.API
                 };
             });
 
-            // Identity Services
+            // Identity Services - ✅ DÜZƏLDİLDİ
             builder.Services.AddIdentity<User, IdentityRole>(options =>
             {
                 // Password settings
-                options.Password.RequireDigit = true;
+                options.Password.RequireDigit = false;      // ✅ Relaxed for testing
                 options.Password.RequiredLength = 6;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireUppercase = false;
@@ -121,12 +122,12 @@ namespace BitByBity.API
 
                 // User settings
                 options.User.RequireUniqueEmail = true;
-                options.SignIn.RequireConfirmedEmail = true; // Email confirmation required!
+                options.SignIn.RequireConfirmedEmail = false;  // ✅ Development üçün false
                 options.SignIn.RequireConfirmedPhoneNumber = false;
 
                 // Lockout settings
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
-                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.MaxFailedAccessAttempts = 10;  // ✅ Development üçün artırıldı
                 options.Lockout.AllowedForNewUsers = true;
             })
             .AddEntityFrameworkStores<AppDbContext>()
@@ -140,37 +141,35 @@ namespace BitByBity.API
             {
                 options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
                 options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
+                options.AddPolicy("ModeratorOnly", policy => policy.RequireRole("Moderator"));
                 options.AddPolicy("EmailConfirmed", policy => policy.RequireClaim("emailConfirmed", "True"));
             });
 
-            // 🔧 CORS DÜZGÜN KONFİQURASİYASI - AUTHENTICATION İLƏ UYĞUN
+            // CORS Configuration
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowFrontend", policy =>
                 {
                     policy.WithOrigins(
-                            "http://localhost:3000",   
-                            "http://localhost:5173",   
-                            "http://localhost:5174",   
-                            "http://localhost:8080",   
-                            "http://localhost:4200",   
-                            "https://localhost:3000",   
+                            "http://localhost:3000",
+                            "http://localhost:5173",
+                            "http://localhost:5174",
+                            "http://localhost:8080",
+                            "http://localhost:4200",
+                            "https://localhost:3000",
                             "https://localhost:5173",
                             "https://localhost:5174"
                         )
                         .AllowAnyHeader()
                         .AllowAnyMethod()
-                        .AllowCredentials();           
+                        .AllowCredentials();
                 });
 
-              
                 options.AddPolicy("DevelopmentOnly", policy =>
                 {
                     policy.SetIsOriginAllowed(origin =>
                     {
                         if (string.IsNullOrEmpty(origin)) return false;
-
-                   
                         try
                         {
                             var uri = new Uri(origin);
@@ -187,10 +186,11 @@ namespace BitByBity.API
                 });
             });
 
-          
             var app = builder.Build();
 
-           
+            // ✅ ROLE VƏ ADMIN USER YARATMA
+            await SeedRolesAndAdminUserAsync(app.Services);
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -201,21 +201,19 @@ namespace BitByBity.API
                 });
             }
 
-           
             app.UseHttpsRedirection();
 
-            
             if (app.Environment.IsDevelopment())
             {
-                app.UseCors("DevelopmentOnly"); 
+                app.UseCors("DevelopmentOnly");
             }
             else
             {
-                app.UseCors("AllowFrontend");    
+                app.UseCors("AllowFrontend");
             }
 
-            app.UseAuthentication();        
-            app.UseAuthorization();         
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.MapControllers();
 
             // Test endpoints
@@ -224,7 +222,8 @@ namespace BitByBity.API
                 Time = DateTime.Now,
                 JWT = "Enabled ✅",
                 Auth = "Bearer Token Required ",
-                CORS = "Fixed for Frontend "
+                CORS = "Fixed for Frontend ",
+                AdminUser = "admin@test.com / Admin123!" //  Admin user info
             });
 
             app.MapGet("/test", () => new {
@@ -243,7 +242,6 @@ namespace BitByBity.API
                 }
             });
 
-            // CORS test endpoint
             app.MapGet("/cors-test", () => new {
                 Message = "CORS Test Successful! ",
                 Time = DateTime.Now,
@@ -251,6 +249,112 @@ namespace BitByBity.API
             });
 
             app.Run();
+        }
+
+        // ✅ ROLE SEEDING VƏ ADMIN USER YARATMA METODu
+        private static async Task SeedRolesAndAdminUserAsync(IServiceProvider serviceProvider)
+        {
+            using var scope = serviceProvider.CreateScope();
+            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+            var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+            try
+            {
+                // ✅ Database ensure created
+                await context.Database.EnsureCreatedAsync();
+
+                // ✅ Identity Role-ları yarat
+                string[] roleNames = { "User", "Admin", "Moderator" };
+
+                foreach (var roleName in roleNames)
+                {
+                    if (!await roleManager.RoleExistsAsync(roleName))
+                    {
+                        var role = new IdentityRole(roleName);
+                        await roleManager.CreateAsync(role);
+                        Console.WriteLine($"✅ Role created: {roleName}");
+                    }
+                }
+
+                // ✅ Test admin istifadəçisi yarat
+                var adminEmail = "admin@test.com";
+                var adminUser = await userManager.FindByEmailAsync(adminEmail);
+
+                if (adminUser == null)
+                {
+                    adminUser = new User
+                    {
+                        UserName = adminEmail,
+                        Email = adminEmail,
+                        EmailConfirmed = true,
+                        FirstName = "System",
+                        LastName = "Admin",
+                        Role = UserRole.Admin,  // ✅ Custom enum role
+                        PhoneNumberConfirmed = true
+                    };
+
+                    var result = await userManager.CreateAsync(adminUser, "Admin123!");
+                    if (result.Succeeded)
+                    {
+                        await userManager.AddToRoleAsync(adminUser, "Admin"); // ✅ Identity role
+                        Console.WriteLine($" Admin user created: {adminEmail} / Admin123!");
+                    }
+                    else
+                    {
+                        Console.WriteLine($" Admin user creation failed: {string.Join(", ", result.Errors.Select(e => e.Description))}");
+                    }
+                }
+                else
+                {
+                    // ✅ Mövcud admin user-ə role təyin et (əgər yoxdursa)
+                    var userRoles = await userManager.GetRolesAsync(adminUser);
+                    if (!userRoles.Contains("Admin"))
+                    {
+                        await userManager.AddToRoleAsync(adminUser, "Admin");
+                        Console.WriteLine($" Admin role added to existing user: {adminEmail}");
+                    }
+
+                    // ✅ Custom enum role update et
+                    if (adminUser.Role != UserRole.Admin)
+                    {
+                        adminUser.Role = UserRole.Admin;
+                        await userManager.UpdateAsync(adminUser);
+                        Console.WriteLine($" Custom role updated for user: {adminEmail}");
+                    }
+                }
+
+                // ✅ Test regular user yarat
+                var userEmail = "user@test.com";
+                var regularUser = await userManager.FindByEmailAsync(userEmail);
+
+                if (regularUser == null)
+                {
+                    regularUser = new User
+                    {
+                        UserName = userEmail,
+                        Email = userEmail,
+                        EmailConfirmed = true,
+                        FirstName = "Test",
+                        LastName = "User",
+                        Role = UserRole.User,  // ✅ Custom enum role
+                        PhoneNumberConfirmed = true
+                    };
+
+                    var result = await userManager.CreateAsync(regularUser, "User123!");
+                    if (result.Succeeded)
+                    {
+                        await userManager.AddToRoleAsync(regularUser, "User"); // ✅ Identity role
+                        Console.WriteLine($" Regular user created: {userEmail} / User123!");
+                    }
+                }
+
+                Console.WriteLine(" Role seeding completed successfully!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($" Error during role seeding: {ex.Message}");
+            }
         }
     }
 }

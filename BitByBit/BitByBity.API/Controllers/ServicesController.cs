@@ -78,7 +78,6 @@ namespace BitByBit.API.Controllers
         /// Yeni xidmət yaratma
         /// </summary>
         [HttpPost]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateService([FromBody] ServicesCreateDto createDto)
         {
             try
@@ -114,7 +113,7 @@ namespace BitByBit.API.Controllers
         /// Xidmət məlumatlarını yeniləmə
         /// </summary>
         [HttpPut("{id}")]
-        [Authorize(Roles = "Admin")]
+      
         public async Task<IActionResult> UpdateService(int id, [FromBody] ServicesUpdateDto updateDto)
         {
             try
@@ -148,11 +147,9 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Xidmət silmə
-        /// </summary>
+       
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+       
         public async Task<IActionResult> DeleteService(int id)
         {
             try
@@ -176,9 +173,6 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Xidmət axtarışı və filtrlənməsi
-        /// </summary>
         [HttpPost("search")]
         public async Task<IActionResult> SearchServices([FromBody] ServicesSearchDto searchDto)
         {
@@ -203,9 +197,7 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Otaq tipinə görə xidmətləri əldə etmə
-        /// </summary>
+      
         [HttpGet("by-room-type/{roomType}")]
         public async Task<IActionResult> GetServicesByRoomType(RoomType roomType)
         {
@@ -230,9 +222,7 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Ad ilə xidmət axtarışı
-        /// </summary>
+      
         [HttpGet("search-by-name")]
         public async Task<IActionResult> SearchServicesByName([FromQuery] string searchTerm)
         {
@@ -262,9 +252,7 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// İkon olan xidmətləri əldə etmə
-        /// </summary>
+      
         [HttpGet("with-icons")]
         public async Task<IActionResult> GetServicesWithIcons()
         {
@@ -289,9 +277,7 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Xidmətləri otaq tipinə görə qruplaşdırmaq
-        /// </summary>
+      
         [HttpGet("grouped-by-room-type")]
         public async Task<IActionResult> GetServicesGroupedByRoomType()
         {
@@ -316,9 +302,7 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Ən yeni xidmətləri əldə etmə
-        /// </summary>
+      
         [HttpGet("latest")]
         public async Task<IActionResult> GetLatestServices([FromQuery] int count = 10)
         {
@@ -343,9 +327,7 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Ən köhnə xidmətləri əldə etmə
-        /// </summary>
+       
         [HttpGet("oldest")]
         public async Task<IActionResult> GetOldestServices([FromQuery] int count = 10)
         {
@@ -370,11 +352,9 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Xidmət statistikaları
-        /// </summary>
+       
         [HttpGet("statistics")]
-        [Authorize(Roles = "Admin")]
+      
         public async Task<IActionResult> GetServiceStatistics()
         {
             try
@@ -398,11 +378,9 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Otaq tipinə görə xidmət sayları
-        /// </summary>
+      
         [HttpGet("count-by-room-type")]
-        [Authorize(Roles = "Admin")]
+     
         public async Task<IActionResult> GetServiceCountByRoomType()
         {
             try
@@ -426,11 +404,9 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// İkon statistikaları
-        /// </summary>
+      
         [HttpGet("icon-statistics")]
-        [Authorize(Roles = "Admin")]
+     
         public async Task<IActionResult> GetIconStatistics()
         {
             try
@@ -454,11 +430,9 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Xidmət adının unikal olub-olmadığını yoxlama
-        /// </summary>
+     
         [HttpGet("check-name-unique")]
-        [Authorize(Roles = "Admin")]
+     
         public async Task<IActionResult> IsServiceNameUnique([FromQuery] string serviceName, [FromQuery] int? excludeId = null)
         {
             try
@@ -487,11 +461,9 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Çoxlu xidmət yaratma
-        /// </summary>
+     
         [HttpPost("bulk-create")]
-        [Authorize(Roles = "Admin")]
+       
         public async Task<IActionResult> CreateMultipleServices([FromBody] IEnumerable<ServicesCreateDto> createDtos)
         {
             try
@@ -525,11 +497,9 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Otaq tipinə görə xidmətləri silmə
-        /// </summary>
+        
         [HttpDelete("by-room-type/{roomType}")]
-        [Authorize(Roles = "Admin")]
+     
         public async Task<IActionResult> DeleteServicesByRoomType(RoomType roomType)
         {
             try

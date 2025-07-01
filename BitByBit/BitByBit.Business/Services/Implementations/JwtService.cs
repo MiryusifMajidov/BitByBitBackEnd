@@ -1,6 +1,7 @@
 ﻿using BitByBit.Business.Services.Interfaces;
 using BitByBit.Core.Models;
 using BitByBit.Entities.Models;
+using BitByBit.Entities.Enums;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -32,9 +33,8 @@ namespace BitByBit.Business.Services.Implementations
                 new(ClaimTypes.NameIdentifier, user.Id),
                 new(ClaimTypes.Name, user.UserName ?? user.Email),
                 new(ClaimTypes.Email, user.Email),
-                new(ClaimTypes.GivenName, user.FirstName),
-                new(ClaimTypes.Surname, user.LastName),
-                new(ClaimTypes.Role, user.Role.ToString()),
+                new(ClaimTypes.GivenName, user.FirstName ?? string.Empty),
+                new(ClaimTypes.Surname, user.LastName ?? string.Empty),
                 new("status", user.Status.ToString()),
                 new("emailConfirmed", user.EmailConfirmed.ToString()),
                 new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
@@ -43,6 +43,13 @@ namespace BitByBit.Business.Services.Implementations
                 new(JwtRegisteredClaimNames.Aud, _jwtSettings.Audience),
                 new(JwtRegisteredClaimNames.Iss, _jwtSettings.Issuer)
             };
+
+            // ✅ ROLE PROBLEM HƏLLİ - enum nullable deyil
+            claims.Add(new(ClaimTypes.Role, user.Role.ToString())); // "Admin", "User", "Moderator"
+
+            // ✅ Əlavə role claim-ləri
+            claims.Add(new("roleId", ((int)user.Role).ToString())); // "1", "2", "3"
+            claims.Add(new("roleName", user.Role.ToString())); // "Admin", "User", "Moderator"
 
             // Add phone number if exists
             if (!string.IsNullOrEmpty(user.PhoneNumber))
@@ -166,6 +173,29 @@ namespace BitByBit.Business.Services.Implementations
             return claims?.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
         }
 
+        /// <summary>
+        /// ✅ Role ID-ni token-dən əldə et
+        /// </summary>
+        public int? GetRoleIdFromToken(string token)
+        {
+            var claims = GetClaimsFromToken(token);
+            var roleIdClaim = claims?.FirstOrDefault(c => c.Type == "roleId")?.Value;
+            return int.TryParse(roleIdClaim, out var roleId) ? roleId : null;
+        }
+
+        /// <summary>
+        /// ✅ UserRole enum-u token-dən əldə et  
+        /// </summary>
+        public UserRole? GetUserRoleFromToken(string token)
+        {
+            var roleId = GetRoleIdFromToken(token);
+            if (roleId.HasValue && Enum.IsDefined(typeof(UserRole), roleId.Value))
+            {
+                return (UserRole)roleId.Value;
+            }
+            return null;
+        }
+
         public IEnumerable<Claim> GetClaimsFromToken(string token)
         {
             try
@@ -247,13 +277,15 @@ namespace BitByBit.Business.Services.Implementations
         #region Helper Methods
 
         /// <summary>
-        /// Get token info for debugging
+        /// Get token info for debugging - ✅ ENHANCED
         /// </summary>
         public object GetTokenInfo(string token)
         {
             try
             {
                 var jwtToken = _tokenHandler.ReadJwtToken(token);
+                var claims = jwtToken.Claims.ToList();
+
                 return new
                 {
                     Header = jwtToken.Header,
@@ -261,7 +293,12 @@ namespace BitByBit.Business.Services.Implementations
                     ValidFrom = jwtToken.ValidFrom,
                     ValidTo = jwtToken.ValidTo,
                     IsExpired = jwtToken.ValidTo <= DateTime.UtcNow,
-                    Claims = jwtToken.Claims.Select(c => new { c.Type, c.Value })
+                    UserId = claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value,
+                    Email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value,
+                    Role = claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value,
+                    RoleId = claims.FirstOrDefault(c => c.Type == "roleId")?.Value,
+                    RoleName = claims.FirstOrDefault(c => c.Type == "roleName")?.Value,
+                    AllClaims = claims.Select(c => new { c.Type, c.Value }).ToList()
                 };
             }
             catch (Exception ex)

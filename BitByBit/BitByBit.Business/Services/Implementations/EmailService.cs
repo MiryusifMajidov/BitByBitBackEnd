@@ -96,7 +96,7 @@ namespace BitByBit.Business.Services.Implementations
         /// </summary>
         public async Task<bool> SendConfirmationCodeAsync(string toEmail, string firstName, string confirmationCode)
         {
-            var subject = "🔐 Email Təsdiqi - BitByBit";
+            var subject = " Email Təsdiqi - BitByBit";
             var htmlBody = EmailTemplateHelper.GetConfirmationCodeTemplate(firstName, confirmationCode);
 
             return await SendHtmlEmailAsync(toEmail, subject, htmlBody);
@@ -107,7 +107,7 @@ namespace BitByBit.Business.Services.Implementations
         /// </summary>
         public async Task<bool> SendWelcomeEmailAsync(string toEmail, string firstName)
         {
-            var subject = "🎉 Xoş gəlmisiniz - BitByBit";
+            var subject = " Xoş gəlmisiniz - BitByBit";
             var htmlBody = EmailTemplateHelper.GetWelcomeTemplate(firstName);
 
             return await SendHtmlEmailAsync(toEmail, subject, htmlBody);

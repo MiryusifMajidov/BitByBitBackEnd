@@ -311,7 +311,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/StringDateTimeStringStringString<>f__AnonymousType25"
+                  "$ref": "#/components/schemas/StringDateTimeStringStringStringString<>f__AnonymousType25"
                 }
               }
             }
@@ -2704,7 +2704,7 @@
         },
         "additionalProperties": false
       },
-      "StringDateTimeStringStringString<>f__AnonymousType25": {
+      "StringDateTimeStringStringStringString<>f__AnonymousType25": {
         "type": "object",
         "properties": {
           "message": {
@@ -2724,6 +2724,10 @@
             "nullable": true
           },
           "cors": {
+            "type": "string",
+            "nullable": true
+          },
+          "adminUser": {
             "type": "string",
             "nullable": true
           }

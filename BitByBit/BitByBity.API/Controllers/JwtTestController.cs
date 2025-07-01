@@ -22,9 +22,7 @@ namespace BitByBity.API.Controllers
             _logger = logger;
         }
 
-        /// <summary>
-        /// JWT Token məlumatlarını göstər (Debug üçün)
-        /// </summary>
+      
         [HttpPost("decode-token")]
         public IActionResult DecodeToken([FromBody] string token)
         {
@@ -44,9 +42,7 @@ namespace BitByBity.API.Controllers
             }
         }
 
-        /// <summary>
-        /// JWT Token validate et
-        /// </summary>
+        
         [HttpPost("validate-token")]
         public IActionResult ValidateToken([FromBody] string token)
         {
@@ -80,9 +76,7 @@ namespace BitByBity.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Current user-in token məlumatları (Authentication tələb edir)
-        /// </summary>
+     
         [HttpGet("my-token-info")]
         [Authorize]
         public IActionResult GetMyTokenInfo()

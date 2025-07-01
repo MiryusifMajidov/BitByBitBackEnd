@@ -21,9 +21,7 @@ namespace BitByBit.API.Controllers
             _logger = logger;
         }
 
-        /// <summary>
-        /// Bütün otaqları əldə etmə (pagination ilə)
-        /// </summary>
+       
         [HttpGet]
         public async Task<IActionResult> GetAllRooms([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
@@ -48,9 +46,7 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// ID ilə otaq məlumatlarını əldə etmə
-        /// </summary>
+       
         [HttpGet("{id}")]
         public async Task<IActionResult> GetRoomById(int id)
         {
@@ -75,11 +71,8 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Yeni otaq yaratma
-        /// </summary>
+     
         [HttpPost]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateRoom([FromBody] RoomCreateDto createDto)
         {
             try
@@ -115,7 +108,6 @@ namespace BitByBit.API.Controllers
         /// Otaq məlumatlarını yeniləmə
         /// </summary>
         [HttpPut("{id}")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateRoom(int id, [FromBody] RoomUpdateDto updateDto)
         {
             try
@@ -153,7 +145,6 @@ namespace BitByBit.API.Controllers
         /// Otaq silmə
         /// </summary>
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteRoom(int id)
         {
             try
@@ -316,7 +307,7 @@ namespace BitByBit.API.Controllers
         /// Otağa şəkil əlavə etmə
         /// </summary>
         [HttpPost("{roomId}/images")]
-        [Authorize(Roles = "Admin")]
+      
         public async Task<IActionResult> AddRoomImage(int roomId, [FromBody] ImageCreateDto imageDto)
         {
             try
@@ -355,7 +346,7 @@ namespace BitByBit.API.Controllers
         /// Otaq şəklini silmə
         /// </summary>
         [HttpDelete("images/{imageId}")]
-        [Authorize(Roles = "Admin")]
+    
         public async Task<IActionResult> DeleteRoomImage(int imageId)
         {
             try
@@ -410,7 +401,7 @@ namespace BitByBit.API.Controllers
         /// Əsas şəkil təyin etmə
         /// </summary>
         [HttpPatch("{roomId}/images/{imageId}/set-main")]
-        [Authorize(Roles = "Admin")]
+        
         public async Task<IActionResult> SetMainImage(int roomId, int imageId)
         {
             try
@@ -474,11 +465,9 @@ namespace BitByBit.API.Controllers
                 return StatusCode(500, ApiResponse.ErrorResponse("Sistemdə xəta baş verdi"));
             }
         }
-        /// <summary>
-        /// Otaq statistikaları
-        /// </summary>
+    
         [HttpGet("{roomId}/statistics")]
-        [Authorize(Roles = "Admin")]
+    
         public async Task<IActionResult> GetRoomStatistics(int roomId)
         {
             try

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BitByBity.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b95d3599bd19c2f8ded1f02dcbb72fb12860c8e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d950e481183012bd484001eb5fe1c939beb4bcc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BitByBity.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BitByBity.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
