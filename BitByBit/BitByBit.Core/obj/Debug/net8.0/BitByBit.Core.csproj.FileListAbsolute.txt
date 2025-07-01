@@ -10,15 +10,3 @@ C:\Users\User\source\repos\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core
 C:\Users\User\source\repos\BitByBit\BitByBit.Core\obj\Debug\net8.0\refint\BitByBit.Core.dll
 C:\Users\User\source\repos\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core.pdb
 C:\Users\User\source\repos\BitByBit\BitByBit.Core\obj\Debug\net8.0\ref\BitByBit.Core.dll
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\bin\Debug\net8.0\BitByBit.Core.deps.json
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\bin\Debug\net8.0\BitByBit.Core.dll
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\bin\Debug\net8.0\BitByBit.Core.pdb
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core.AssemblyInfoInputs.cache
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core.AssemblyInfo.cs
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core.dll
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\refint\BitByBit.Core.dll
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\BitByBit.Core.pdb
-C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Core\obj\Debug\net8.0\ref\BitByBit.Core.dll
