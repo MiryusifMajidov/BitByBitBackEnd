@@ -1,0 +1,1288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\migrations\\20250701071124_addroomserviceimagereservationtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\migrations\\20250701071124_addroomserviceimagereservationtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\enums\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\enums\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybity.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|solutionrelative:bitbybity.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|solutionrelative:bitbybity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\constants\\successmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\constants\\successmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybity.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|solutionrelative:bitbybity.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\services\\implementations\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\services\\implementations\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\repository\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\repository\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybity.api\\controllers\\jwttestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|solutionrelative:bitbybity.api\\controllers\\jwttestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|solutionrelative:bitbybity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\auth\\tokeninfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\auth\\tokeninfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\auth\\tokenrefreshresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\auth\\tokenrefreshresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\auth\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\auth\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\services\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\services\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAE26EE-D44D-4C53-ACF9-5AA9E7E7452F}|BitByBit.Core\\BitByBit.Core.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.core\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAE26EE-D44D-4C53-ACF9-5AA9E7E7452F}|BitByBit.Core\\BitByBit.Core.csproj|solutionrelative:bitbybit.core\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybity.api\\controllers\\emailtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|solutionrelative:bitbybity.api\\controllers\\emailtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\helpers\\emailtemplatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\helpers\\emailtemplatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\email\\passwordresetemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\email\\passwordresetemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\email\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\email\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\email\\emailconfirmationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\email\\emailconfirmationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\common\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\common\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\exceptions\\invalidcredentialsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\exceptions\\invalidcredentialsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\helpers\\codegeneratorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\helpers\\codegeneratorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\services\\implementations\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\services\\implementations\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\services\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\services\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\validators\\user\\changepassworddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\validators\\user\\changepassworddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\validators\\user\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\validators\\user\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\validators\\user\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\validators\\user\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\validators\\user\\resetpassworddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\validators\\user\\resetpassworddtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\configurations\\baseentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\configurations\\baseentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\extensions\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\extensions\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\extensions\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\extensions\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\constants\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\constants\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\constants\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\constants\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybity.api\\bitbybity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA807132-CACE-4146-A602-3BB1C7D306CB}|BitByBity.API\\BitByBity.API.csproj|solutionrelative:bitbybity.api\\bitbybity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\user\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\user\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\user\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\user\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\user\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\user\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\user\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\user\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\user\\confirmemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\user\\confirmemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\dtos\\user\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\dtos\\user\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAE26EE-D44D-4C53-ACF9-5AA9E7E7452F}|BitByBit.Core\\BitByBit.Core.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.core\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAE26EE-D44D-4C53-ACF9-5AA9E7E7452F}|BitByBit.Core\\BitByBit.Core.csproj|solutionrelative:bitbybit.core\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.business\\bitbybit.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{908F8C6F-BAF5-4008-BE4A-B040A7367E18}|BitByBit.Business\\BitByBit.Business.csproj|solutionrelative:bitbybit.business\\bitbybit.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\bitbybit.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\bitbybit.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\seeds\\userseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\seeds\\userseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.entities\\bitbybit.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E4CF544-48AD-43E2-91D0-D08FF4597141}|BitByBit.Entities\\BitByBit.Entities.csproj|solutionrelative:bitbybit.entities\\bitbybit.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\seeds\\roleseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\seeds\\roleseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|c:\\users\\user\\desktop\\bitbybitbackend\\bitbybit\\bitbybit.dataaccess\\migrations\\20250629163312_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10667D68-3437-4E8A-A440-36E905B00AFC}|BitByBit.DataAccess\\BitByBit.DataAccess.csproj|solutionrelative:bitbybit.dataaccess\\migrations\\20250629163312_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250701071124_AddRoomServiceImageReservationTables.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Migrations\\20250701071124_AddRoomServiceImageReservationTables.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Migrations\\20250701071124_AddRoomServiceImageReservationTables.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Migrations\\20250701071124_AddRoomServiceImageReservationTables.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Migrations\\20250701071124_AddRoomServiceImageReservationTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:11:24.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Images.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\Images.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Models\\Images.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\Images.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Models\\Images.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:47:30.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Enums\\RoomType.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Enums\\RoomType.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Enums\\RoomType.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Enums\\RoomType.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:37:53.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Services.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\Services.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Models\\Services.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\Services.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Models\\Services.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:32:02.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\Reservation.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:31:52.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\Room.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Models\\Room.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:31:33.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Enums\\UserStatus.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Enums\\UserStatus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Enums\\UserStatus.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Enums\\UserStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:00:08.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Enums\\UserRole.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:59:56.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:53:49.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BitByBity.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BitByBity.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:02:46.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SuccessMessages.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Constants\\SuccessMessages.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Constants\\SuccessMessages.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Constants\\SuccessMessages.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Constants\\SuccessMessages.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:01:03.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Implementations\\JwtService.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Services\\Implementations\\JwtService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Implementations\\JwtService.cs",
+              "RelativeToolTip": "BitByBit.Business\\Services\\Implementations\\JwtService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwMcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:49:05.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Program.cs",
+              "RelativeDocumentMoniker": "BitByBity.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Program.cs",
+              "RelativeToolTip": "BitByBity.API\\Program.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T21:35:05.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\User.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:01:45.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "BitByBit.Business\\Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAqwOsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:48:16.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "BitByBit.Business\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAxwHoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:47:07.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BitByBity.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BitByBity.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwL8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:01:56.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAcwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:57:19.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Repository\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Repository\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Repository\\Implementations\\Repository.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Repository\\Implementations\\Repository.cs",
+              "ViewState": "AgIAACoEAAAAAAAAAAAUwDgEAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:42:37.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JwtTestController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Controllers\\JwtTestController.cs",
+              "RelativeDocumentMoniker": "BitByBity.API\\Controllers\\JwtTestController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Controllers\\JwtTestController.cs",
+              "RelativeToolTip": "BitByBity.API\\Controllers\\JwtTestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:31:53.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\appsettings.json",
+              "RelativeDocumentMoniker": "BitByBity.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\appsettings.json",
+              "RelativeToolTip": "BitByBity.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-29T00:08:07.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "BitByBit.Business\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:04:36.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TokenInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\TokenInfoDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Auth\\TokenInfoDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\TokenInfoDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Auth\\TokenInfoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:28:14.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Auth\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Auth\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:53:13.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TokenRefreshResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\TokenRefreshResponseDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Auth\\TokenRefreshResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\TokenRefreshResponseDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Auth\\TokenRefreshResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:27:34.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RefreshTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\RefreshTokenDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Auth\\RefreshTokenDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\RefreshTokenDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Auth\\RefreshTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:27:20.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\Models\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "BitByBit.Core\\Models\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\Models\\JwtSettings.cs",
+              "RelativeToolTip": "BitByBit.Core\\Models\\JwtSettings.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:22:38.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmailTestController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Controllers\\EmailTestController.cs",
+              "RelativeDocumentMoniker": "BitByBity.API\\Controllers\\EmailTestController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\Controllers\\EmailTestController.cs",
+              "RelativeToolTip": "BitByBity.API\\Controllers\\EmailTestController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAUwIcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:03:22.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Repository\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Repository\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAAwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:42:14.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Services\\Interfaces\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "BitByBit.Business\\Services\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:47:59.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Services\\Implementations\\EmailService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "BitByBit.Business\\Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwAgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:48:29.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "BitByBit.Business\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAcwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:47:21.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmailTemplateHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Helpers\\EmailTemplateHelper.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Helpers\\EmailTemplateHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Helpers\\EmailTemplateHelper.cs",
+              "RelativeToolTip": "BitByBit.Business\\Helpers\\EmailTemplateHelper.cs",
+              "ViewState": "AgIAACkCAAAAAAAAAAAcwDsCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:04:19.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PasswordResetEmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Email\\PasswordResetEmailDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Email\\PasswordResetEmailDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Email\\PasswordResetEmailDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Email\\PasswordResetEmailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:52:56.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Email\\EmailDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Email\\EmailDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Email\\EmailDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Email\\EmailDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:52:29.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmailConfirmationDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Email\\EmailConfirmationDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Email\\EmailConfirmationDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Email\\EmailConfirmationDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Email\\EmailConfirmationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:52:43.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Common\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Common\\ServiceResult.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Common\\ServiceResult.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Common\\ServiceResult.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:53:42.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Common\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Common\\PaginatedResult.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Common\\PaginatedResult.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Common\\PaginatedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:54:06.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Common\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:53:53.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\TokenDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\Auth\\TokenDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\Auth\\TokenDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\Auth\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:53:28.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BusinessException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Exceptions\\BusinessException.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Exceptions\\BusinessException.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Exceptions\\BusinessException.cs",
+              "RelativeToolTip": "BitByBit.Business\\Exceptions\\BusinessException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:05:22.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "InvalidCredentialsException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Exceptions\\InvalidCredentialsException.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Exceptions\\InvalidCredentialsException.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Exceptions\\InvalidCredentialsException.cs",
+              "RelativeToolTip": "BitByBit.Business\\Exceptions\\InvalidCredentialsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:05:46.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Exceptions\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Exceptions\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Exceptions\\UserNotFoundException.cs",
+              "RelativeToolTip": "BitByBit.Business\\Exceptions\\UserNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:05:33.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "BitByBit.Business\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:03:47.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CodeGeneratorHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Helpers\\CodeGeneratorHelper.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Helpers\\CodeGeneratorHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Helpers\\CodeGeneratorHelper.cs",
+              "RelativeToolTip": "BitByBit.Business\\Helpers\\CodeGeneratorHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:03:58.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Helpers\\TokenHelper.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Helpers\\TokenHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Helpers\\TokenHelper.cs",
+              "RelativeToolTip": "BitByBit.Business\\Helpers\\TokenHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:04:08.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "BitByBit.Business\\Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:05:04.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Implementations\\FileService.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Services\\Implementations\\FileService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Implementations\\FileService.cs",
+              "RelativeToolTip": "BitByBit.Business\\Services\\Implementations\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:48:43.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Interfaces\\IFileService.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Services\\Interfaces\\IFileService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Services\\Interfaces\\IFileService.cs",
+              "RelativeToolTip": "BitByBit.Business\\Services\\Interfaces\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:47:40.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ChangePasswordDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Validators\\User\\ChangePasswordDtoValidator.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Validators\\User\\ChangePasswordDtoValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Validators\\User\\ChangePasswordDtoValidator.cs",
+              "RelativeToolTip": "BitByBit.Business\\Validators\\User\\ChangePasswordDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:02:59.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "LoginDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Validators\\User\\LoginDtoValidator.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Validators\\User\\LoginDtoValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Validators\\User\\LoginDtoValidator.cs",
+              "RelativeToolTip": "BitByBit.Business\\Validators\\User\\LoginDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:02:36.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RegisterDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Validators\\User\\RegisterDtoValidator.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Validators\\User\\RegisterDtoValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Validators\\User\\RegisterDtoValidator.cs",
+              "RelativeToolTip": "BitByBit.Business\\Validators\\User\\RegisterDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:02:24.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ResetPasswordDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Validators\\User\\ResetPasswordDtoValidator.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\Validators\\User\\ResetPasswordDtoValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\Validators\\User\\ResetPasswordDtoValidator.cs",
+              "RelativeToolTip": "BitByBit.Business\\Validators\\User\\ResetPasswordDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:02:48.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "BaseEntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Configurations\\BaseEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Configurations\\BaseEntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Configurations\\BaseEntityConfiguration.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Configurations\\BaseEntityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:57:07.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:57:44.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:57:32.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RepositoryExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Extensions\\RepositoryExtensions.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Extensions\\RepositoryExtensions.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Extensions\\RepositoryExtensions.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Extensions\\RepositoryExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:58:11.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ModelBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Extensions\\ModelBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Extensions\\ModelBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Extensions\\ModelBuilderExtensions.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Extensions\\ModelBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:57:59.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ValidationConstants.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Constants\\ValidationConstants.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Constants\\ValidationConstants.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Constants\\ValidationConstants.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Constants\\ValidationConstants.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwB8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:01:15.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ErrorMessages.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Constants\\ErrorMessages.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Constants\\ErrorMessages.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Constants\\ErrorMessages.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Constants\\ErrorMessages.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:00:52.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Enums\\Gender.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Enums\\Gender.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Enums\\Gender.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Enums\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:00:21.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "BitByBit.Entities\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T23:01:34.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAADoSAAAAAAAAAAAwwMYTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-29T18:06:32.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "BitByBity.API.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\BitByBity.API.csproj",
+              "RelativeDocumentMoniker": "BitByBity.API\\BitByBity.API.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBity.API\\BitByBity.API.csproj",
+              "RelativeToolTip": "BitByBity.API\\BitByBity.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-29T15:58:56.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "20250629163312_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Migrations\\20250629163312_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Migrations\\20250629163312_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Migrations\\20250629163312_InitialCreate.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Migrations\\20250629163312_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:33:12.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\User\\UserResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\UserResponseDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\User\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:52:07.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UpdateProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\UpdateProfileDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\User\\UpdateProfileDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\UpdateProfileDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\User\\UpdateProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:51:54.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\User\\ChangePasswordDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\ChangePasswordDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\User\\ChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:51:40.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\User\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\ResetPasswordDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\User\\ResetPasswordDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:51:27.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ForgotPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\ForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\User\\ForgotPasswordDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\ForgotPasswordDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\User\\ForgotPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:51:14.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ConfirmEmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\ConfirmEmailDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\User\\ConfirmEmailDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\ConfirmEmailDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\User\\ConfirmEmailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:51:01.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\User\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\LoginDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\User\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:50:49.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "BitByBit.Business\\DTOs\\User\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\DTOs\\User\\RegisterDto.cs",
+              "RelativeToolTip": "BitByBit.Business\\DTOs\\User\\RegisterDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:50:36.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\Models\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "BitByBit.Core\\Models\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\Models\\EmailSettings.cs",
+              "RelativeToolTip": "BitByBit.Core\\Models\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:09:58.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "BitByBit.Business.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj",
+              "RelativeDocumentMoniker": "BitByBit.Business\\BitByBit.Business.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj",
+              "RelativeToolTip": "BitByBit.Business\\BitByBit.Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-29T14:43:29.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "BitByBit.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\BitByBit.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj",
+              "RelativeToolTip": "BitByBit.DataAccess\\BitByBit.DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-28T22:23:50.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "UserSeed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Seeds\\UserSeed.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Seeds\\UserSeed.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Seeds\\UserSeed.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Seeds\\UserSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:58:50.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "BitByBit.Entities.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj",
+              "RelativeDocumentMoniker": "BitByBit.Entities\\BitByBit.Entities.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj",
+              "RelativeToolTip": "BitByBit.Entities\\BitByBit.Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-28T22:59:20.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "RoleSeed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Seeds\\RoleSeed.cs",
+              "RelativeDocumentMoniker": "BitByBit.DataAccess\\Seeds\\RoleSeed.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\Seeds\\RoleSeed.cs",
+              "RelativeToolTip": "BitByBit.DataAccess\\Seeds\\RoleSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T22:59:04.386Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

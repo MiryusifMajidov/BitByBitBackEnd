@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MdVmiFZj5NYJ4gj9lWRaHeA0KVOt5qjnBsca/oXv9UI=",
+  "Source": "BitByBity.API",
+  "BasePath": "_content/BitByBity.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
