@@ -103,7 +103,7 @@ namespace BitByBit.Business.Services.Implementations
                 var fullReservation = await _reservationRepository.GetByIdAsync(createdReservation.Id, true, "Room", "User");
                 var reservationDto = _mapper.Map<ReservationResponseDto>(fullReservation);
 
-                _logger.LogInformation("Reservation created successfully for user: {UserId}, Room: {RoomId}", userId, createDto.RoomId);
+                _logger.LogInformation("Reservation created successfully for user: {UserId}, Room: {RoomId}", "190bff47-444f-448e-b188-d2a0636fd26d"/*userId*/, createDto.RoomId);
                 return ServiceResult<ReservationResponseDto>.SuccessResult(reservationDto, "Rezervasiya uğurla yaradıldı");
             }
             catch (Exception ex)

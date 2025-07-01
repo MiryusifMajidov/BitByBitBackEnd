@@ -128,7 +128,7 @@
         },
         "runtime": {
           "lib/net8.0/_._": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -161,12 +161,12 @@
         },
         "compile": {
           "lib/net7.0/_._": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Microsoft.CodeAnalysis.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "resource": {
@@ -218,12 +218,12 @@
         },
         "compile": {
           "lib/net7.0/_._": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Microsoft.CodeAnalysis.CSharp.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "resource": {
@@ -278,12 +278,12 @@
         },
         "compile": {
           "lib/net7.0/_._": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "resource": {
@@ -340,12 +340,12 @@
         },
         "compile": {
           "lib/net7.0/_._": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Microsoft.CodeAnalysis.Workspaces.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "resource": {
@@ -400,15 +400,15 @@
         },
         "compile": {
           "lib/net7.0/_._": {
-            "related": ".pdb;.runtimeconfig.json;.xml"
+            "related": ".xml;.pdb;.runtimeconfig.json"
           }
         },
         "runtime": {
           "lib/net7.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll": {
-            "related": ".pdb;.runtimeconfig.json;.xml"
+            "related": ".xml;.pdb;.runtimeconfig.json"
           },
           "lib/net7.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll": {
-            "related": ".BuildHost.pdb;.BuildHost.runtimeconfig.json;.BuildHost.xml;.pdb;.xml"
+            "related": ".BuildHost.xml;.BuildHost.pdb;.BuildHost.runtimeconfig.json;.xml;.pdb"
           }
         },
         "resource": {
@@ -481,12 +481,12 @@
         },
         "compile": {
           "ref/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtimeTargets": {
@@ -1023,12 +1023,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -5019,23 +5019,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\recall\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj",
       "projectName": "BitByBit.DataAccess",
-      "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\recall\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\recall\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5044,15 +5044,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj"
+            "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj": {
+              "projectPath": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj"
             }
           }
         }
@@ -5067,7 +5066,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -5108,7 +5107,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

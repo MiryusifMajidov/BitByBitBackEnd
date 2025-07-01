@@ -75,6 +75,36 @@ namespace BitByBit.Business.Services.Implementations
             }
         }
 
+        public async Task<ServiceResult<IEnumerable<RoomListResponseDto>>> GetRoomListAsync()
+        {
+            try
+            {
+                var rooms = await _roomRepository.GetAll(true, "Images").ToListAsync();
+
+                var roomListDtos = rooms.Select(room => new RoomListResponseDto
+                {
+                    Id = room.Id,
+                    RoomName = room.RoomName,
+                    Role = room.Role,
+                    Price = room.Price,
+                    Capacity = room.Capacity,
+                    Wifi = room.Wifi,
+                    MainImageUrl = room.Images.FirstOrDefault(i => i.IsMain)?.ImageUrl
+                }).ToList();
+
+                return ServiceResult<IEnumerable<RoomListResponseDto>>.SuccessResult(
+                    roomListDtos,
+                    "Otaq siyahısı uğurla əldə edildi"
+                );
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting room list for dropdown or selection");
+                return ServiceResult<IEnumerable<RoomListResponseDto>>.ErrorResult("Otaq siyahısı əldə edilmədi");
+            }
+        }
+
+
         public async Task<ServiceResult<RoomResponseDto>> CreateRoomAsync(RoomCreateDto createDto)
         {
             try
@@ -96,17 +126,17 @@ namespace BitByBit.Business.Services.Implementations
                     {
                         var image = new Images
                         {
-                            ImageUrl = file.FileUpload("wwwroot/Images", 5), // Eyni `FileUpload` extension-dan istifadə
+                            ImageUrl = file.FileUpload("wwwroot/Images", 5), 
                             RoomId = createdRoom.Id,
-                            AltText = createDto.RoomName, // İstəyə görə dəyişilə bilər
-                            DisplayOrder = 1, // İstəyə görə dəyişilə bilər
-                            IsMain = false // Əgər birincisini əsas şəkil kimi qeyd etmək istəyirsənsə, burada qeyd et
+                            AltText = createDto.RoomName, 
+                            DisplayOrder = 1,
+                            IsMain = false 
                         };
 
                         imageList.Add(image);
                     }
 
-                    await _imageRepository.AddRangeAsync(imageList); // `_imagesRepository` burada `IWriteRepository<Images>`-dir
+                    await _imageRepository.AddRangeAsync(imageList);
                     await _imageRepository.SaveChangesAsync();
                 }
 
@@ -614,17 +644,17 @@ namespace BitByBit.Business.Services.Implementations
         {
             try
             {
-                // Həmin tarix aralığında rezervasiya olan otaq ID-lərini tap
+                
                 var bookedRoomIds = await _reservationRepository.GetDistinctAsync(
                     r => r.StartDate < endDate && r.EndDate > startDate,
                     r => r.RoomId
                 );
 
-                // Bütün otaqları əldə et (rezervasiya olunmayanları)
+            
                 var availableRoomsQuery = _roomRepository.GetAll(true, "Images")
                     .Where(r => !bookedRoomIds.Contains(r.Id));
 
-                // Əgər room type təyin edilibsə, filtrləyə
+              
                 if (roomType.HasValue)
                 {
                     availableRoomsQuery = availableRoomsQuery.Where(r => r.Role == roomType.Value);

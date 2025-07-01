@@ -9,6 +9,8 @@ namespace BitByBit.Business.Services.Interfaces
         // Basic CRUD Operations
         Task<ServiceResult<(IEnumerable<RoomResponseDto> Rooms, int TotalCount)>> GetAllRoomsAsync(int page = 1, int pageSize = 10);
         Task<ServiceResult<RoomResponseDto>> GetRoomByIdAsync(int id);
+        Task<ServiceResult<IEnumerable<RoomListResponseDto>>> GetRoomListAsync();
+
         Task<ServiceResult<RoomResponseDto>> CreateRoomAsync(RoomCreateDto createDto);
         Task<ServiceResult<RoomResponseDto>> UpdateRoomAsync(int id, RoomUpdateDto updateDto);
         Task<ServiceResult> DeleteRoomAsync(int id);
@@ -31,7 +33,7 @@ namespace BitByBit.Business.Services.Interfaces
         Task<ServiceResult> DeleteRoomImageAsync(int imageId);
         Task<ServiceResult> SetMainImageAsync(int roomId, int imageId);
         Task<ServiceResult<IEnumerable<ImageResponseDto>>> GetRoomImagesAsync(int roomId);
-
+        
         // Statistics and Analytics
         Task<ServiceResult<object>> GetRoomStatisticsAsync(int roomId);
         Task<ServiceResult<object>> GetOverallRoomStatisticsAsync();

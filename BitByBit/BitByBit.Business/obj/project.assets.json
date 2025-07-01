@@ -110,12 +110,12 @@
         },
         "compile": {
           "lib/net8.0/MailKit.dll": {
-            "related": ".dll.config;.pdb;.xml"
+            "related": ".dll.config;.xml;.pdb"
           }
         },
         "runtime": {
           "lib/net8.0/MailKit.dll": {
-            "related": ".dll.config;.pdb;.xml"
+            "related": ".dll.config;.xml;.pdb"
           }
         }
       },
@@ -458,12 +458,12 @@
         },
         "compile": {
           "ref/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtimeTargets": {
@@ -1094,12 +1094,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -1158,12 +1158,12 @@
         },
         "compile": {
           "lib/net8.0/MimeKit.dll": {
-            "related": ".dll.config;.pdb;.xml"
+            "related": ".dll.config;.xml;.pdb"
           }
         },
         "runtime": {
           "lib/net8.0/MimeKit.dll": {
-            "related": ".dll.config;.pdb;.xml"
+            "related": ".dll.config;.xml;.pdb"
           }
         }
       },
@@ -4379,23 +4379,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\recall\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj",
+      "projectUniqueName": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj",
       "projectName": "BitByBit.Business",
-      "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\obj\\",
+      "projectPath": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\BitByBit.Business.csproj",
+      "packagesPath": "C:\\Users\\recall\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\recall\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4404,21 +4404,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj"
+            "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj": {
+              "projectPath": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Core\\BitByBit.Core.csproj"
             },
-            "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj"
+            "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.DataAccess\\BitByBit.DataAccess.csproj"
             },
-            "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj"
+            "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj": {
+              "projectPath": "C:\\Users\\recall\\Desktop\\lastHope\\BitByBitBackEnd\\BitByBit\\BitByBit.Entities\\BitByBit.Entities.csproj"
             }
           }
         }
@@ -4433,7 +4432,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4480,7 +4479,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

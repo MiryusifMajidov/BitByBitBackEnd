@@ -1473,6 +1473,18 @@
         }
       }
     },
+    "/api/Room/GetAllRooms": {
+      "get": {
+        "tags": [
+          "Room"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Room/{roomId}/statistics": {
       "get": {
         "tags": [
@@ -1944,6 +1956,18 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/all": {
+      "get": {
+        "tags": [
+          "User"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -2435,8 +2459,8 @@
             "type": "boolean"
           },
           "price": {
-            "maximum": 99999.99,
-            "minimum": 0.01,
+            "maximum": 99999,99,
+            "minimum": 0,01,
             "type": "number",
             "format": "double"
           },
@@ -2570,8 +2594,8 @@
             "type": "boolean"
           },
           "price": {
-            "maximum": 99999.99,
-            "minimum": 0.01,
+            "maximum": 99999,99,
+            "minimum": 0,01,
             "type": "number",
             "format": "double"
           }

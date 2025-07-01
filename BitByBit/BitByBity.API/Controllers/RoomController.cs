@@ -465,7 +465,36 @@ namespace BitByBit.API.Controllers
                 return StatusCode(500, ApiResponse.ErrorResponse("Sistemdə xəta baş verdi"));
             }
         }
-    
+
+        /// <summary>
+        /// Dropdown və ya siyahı üçün otaq adları və əsas məlumatları
+        /// </summary>
+        [HttpGet("GetAllRooms")]
+        public async Task<IActionResult> GetRoomList()
+        {
+            try
+            {
+                var result = await _roomService.GetRoomListAsync();
+
+                if (result.Success)
+                {
+                    return Ok(ApiResponse.SuccessResponse(
+                        data: result.Data,
+                        message: result.Message
+                    ));
+                }
+
+                return BadRequest(ApiResponse.ErrorResponse(result.Message));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting room list for dropdown");
+                return StatusCode(500, ApiResponse.ErrorResponse("Sistemdə xəta baş verdi"));
+            }
+        }
+
+
+
         [HttpGet("{roomId}/statistics")]
     
         public async Task<IActionResult> GetRoomStatistics(int roomId)

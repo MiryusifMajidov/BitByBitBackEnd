@@ -823,6 +823,16 @@
   },
   {
     "ContainingType": "BitByBit.API.Controllers.RoomController",
+    "Method": "GetRoomList",
+    "RelativePath": "api/Room/GetAllRooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BitByBit.API.Controllers.RoomController",
     "Method": "DeleteRoomImage",
     "RelativePath": "api/Room/images/{imageId}",
     "HttpMethod": "DELETE",
@@ -1167,6 +1177,16 @@
     "Method": "DeleteAccount",
     "RelativePath": "api/User/account",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BitByBit.API.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/all",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

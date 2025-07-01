@@ -15,7 +15,7 @@ namespace BitByBit.Business.Mappings
         {
             #region User Mappings
 
-            // User Entity mappings
+         
             CreateMap<User, UserResponseDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
@@ -28,7 +28,7 @@ namespace BitByBit.Business.Mappings
                 .ForMember(dest => dest.CreatedDate, opt => opt.MapFrom(src => src.CreatedDate))
                 .ForMember(dest => dest.LastLoginDate, opt => opt.MapFrom(src => src.LastLoginDate));
 
-            // RegisterDto to User mapping
+         
             CreateMap<RegisterDto, User>()
                 .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.Email))
                 .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Email))
@@ -54,7 +54,7 @@ namespace BitByBit.Business.Mappings
                 .ForMember(dest => dest.NormalizedUserName, opt => opt.Ignore())
                 .ForMember(dest => dest.NormalizedEmail, opt => opt.Ignore());
 
-            // UpdateProfileDto to User mapping
+ 
             CreateMap<UpdateProfileDto, User>()
                 .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
                 .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
@@ -153,7 +153,7 @@ namespace BitByBit.Business.Mappings
 
             #region Reservation Mappings
 
-            // Reservation Entity to ResponseDto
+        
             CreateMap<Reservation, ReservationResponseDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.RoomId, opt => opt.MapFrom(src => src.RoomId))
@@ -166,7 +166,6 @@ namespace BitByBit.Business.Mappings
                 .ForMember(dest => dest.Room, opt => opt.MapFrom(src => src.Room))
                 .ForMember(dest => dest.User, opt => opt.MapFrom(src => src.User));
 
-            // ReservationCreateDto to Reservation Entity
             CreateMap<ReservationCreateDto, Reservation>()
                 .ForMember(dest => dest.RoomId, opt => opt.MapFrom(src => src.RoomId))
                 .ForMember(dest => dest.StartDate, opt => opt.MapFrom(src => src.StartDate))
@@ -175,12 +174,12 @@ namespace BitByBit.Business.Mappings
                 .ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => false))
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
                 .ForMember(dest => dest.UpdatedDate, opt => opt.Ignore())
-                .ForMember(dest => dest.UserId, opt => opt.Ignore()) // Service-də set edilir
-                .ForMember(dest => dest.TotalNights, opt => opt.Ignore()) // Service-də calculate edilir
+                .ForMember(dest => dest.UserId, opt => opt.Ignore()) 
+                .ForMember(dest => dest.TotalNights, opt => opt.Ignore()) 
                 .ForMember(dest => dest.Room, opt => opt.Ignore())
                 .ForMember(dest => dest.User, opt => opt.Ignore());
 
-            // ReservationUpdateDto to Reservation Entity
+
             CreateMap<ReservationUpdateDto, Reservation>()
                 .ForMember(dest => dest.StartDate, opt => opt.MapFrom(src => src.StartDate))
                 .ForMember(dest => dest.EndDate, opt => opt.MapFrom(src => src.EndDate))
@@ -188,9 +187,9 @@ namespace BitByBit.Business.Mappings
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
                 .ForMember(dest => dest.CreatedDate, opt => opt.Ignore())
                 .ForMember(dest => dest.IsDeleted, opt => opt.Ignore())
-                .ForMember(dest => dest.RoomId, opt => opt.Ignore()) // Dəyişdirilmir
-                .ForMember(dest => dest.UserId, opt => opt.Ignore()) // Dəyişdirilmir
-                .ForMember(dest => dest.TotalNights, opt => opt.Ignore()) // Service-də calculate edilir
+                .ForMember(dest => dest.RoomId, opt => opt.Ignore()) 
+                .ForMember(dest => dest.UserId, opt => opt.Ignore()) 
+                .ForMember(dest => dest.TotalNights, opt => opt.Ignore()) 
                 .ForMember(dest => dest.Room, opt => opt.Ignore())
                 .ForMember(dest => dest.User, opt => opt.Ignore());
 

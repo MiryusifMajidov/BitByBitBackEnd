@@ -11,7 +11,7 @@ namespace BitByBit.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize] // Bütün endpoint-lər authentication tələb edir
+    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -23,10 +23,7 @@ namespace BitByBit.API.Controllers
             _logger = logger;
         }
 
-        /// <summary>
-        /// Current user-in profil məlumatlarını əldə etmə
-        /// </summary>
-        /// <returns>User profil məlumatları</returns>
+
         [HttpGet("profile")]
         public async Task<IActionResult> GetProfile()
         {
@@ -57,11 +54,33 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Current user-in profil məlumatlarını yeniləmə
-        /// </summary>
-        /// <param name="updateProfileDto">Yenilənəcək məlumatlar</param>
-        /// <returns>Yenilənmiş profil məlumatları</returns>
+
+        [HttpGet("all")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            try
+            {
+                var result = await _userService.GetAllUsersAsync();
+
+                if (result.Success)
+                {
+                    return Ok(ApiResponse.SuccessResponse(
+                        data: result.Data,
+                        message: "Bütün istifadəçilər əldə edildi"
+                    ));
+                }
+
+                return BadRequest(ApiResponse.ErrorResponse(result.Message));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting all users");
+                return StatusCode(500, ApiResponse.ErrorResponse("Sistemdə xəta baş verdi"));
+            }
+        }
+
+
         [HttpPut("profile")]
         public async Task<IActionResult> UpdateProfile([FromBody] UpdateProfileDto updateProfileDto)
         {
@@ -102,11 +121,7 @@ namespace BitByBit.API.Controllers
             }
         }
 
-        /// <summary>
-        /// Current user-in şifrəsini dəyişmə
-        /// </summary>
-        /// <param name="changePasswordDto">Cari və yeni şifrə</param>
-        /// <returns>Şifrə dəyişmə nəticəsi</returns>
+
         [HttpPost("change-password")]
         public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDto changePasswordDto)
         {

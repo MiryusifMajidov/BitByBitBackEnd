@@ -1,5 +1,6 @@
 ﻿using BitByBit.Business.DTOs.Common;
 using BitByBit.Business.DTOs.Services;
+using BitByBit.Business.DTOs.User;
 using BitByBit.Entities.Enums;
 
 namespace BitByBit.Business.Services.Interfaces
@@ -11,6 +12,9 @@ namespace BitByBit.Business.Services.Interfaces
         Task<ServiceResult<ServicesResponseDto>> CreateServiceAsync(ServicesCreateDto createDto);
         Task<ServiceResult<ServicesResponseDto>> UpdateServiceAsync(int id, ServicesUpdateDto updateDto);
         Task<ServiceResult> DeleteServiceAsync(int id);
+
+
+
         Task<ServiceResult<(IEnumerable<ServicesResponseDto> Services, int TotalCount)>> SearchServicesAsync(ServicesSearchDto searchDto);
         Task<ServiceResult<IEnumerable<ServicesResponseDto>>> GetServicesByRoomTypeAsync(RoomType roomType);
         Task<ServiceResult<IEnumerable<ServicesResponseDto>>> SearchServicesByNameAsync(string searchTerm);

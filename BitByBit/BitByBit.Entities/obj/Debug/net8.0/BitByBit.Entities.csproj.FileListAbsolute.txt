@@ -23,3 +23,16 @@ C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.
 C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\refint\BitByBit.Entities.dll
 C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.pdb
 C:\Users\User\Desktop\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\ref\BitByBit.Entities.dll
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.csproj.AssemblyReference.cache
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.AssemblyInfoInputs.cache
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.AssemblyInfo.cs
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.csproj.CoreCompileInputs.cache
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.sourcelink.json
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\bin\Debug\net8.0\BitByBit.Entities.deps.json
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\bin\Debug\net8.0\BitByBit.Entities.dll
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\bin\Debug\net8.0\BitByBit.Entities.pdb
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.dll
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\refint\BitByBit.Entities.dll
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\BitByBit.Entities.pdb
+C:\Users\recall\Desktop\lastHope\BitByBitBackEnd\BitByBit\BitByBit.Entities\obj\Debug\net8.0\ref\BitByBit.Entities.dll

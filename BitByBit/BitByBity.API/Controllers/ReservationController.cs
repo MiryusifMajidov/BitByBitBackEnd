@@ -9,7 +9,7 @@ namespace BitByBit.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+
     public class ReservationController : ControllerBase
     {
         private readonly IReservationService _reservationService;
@@ -25,7 +25,7 @@ namespace BitByBit.API.Controllers
         /// Bütün rezervasiyaları əldə etmə (pagination ilə) - Admin üçün
         /// </summary>
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        
         public async Task<IActionResult> GetAllReservations([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             try
@@ -94,7 +94,7 @@ namespace BitByBit.API.Controllers
                     return BadRequest(ApiResponse.ErrorResponse("Validation xətaları", errors));
                 }
 
-                var userId = GetCurrentUserId();
+                var userId = "190bff47-444f-448e-b188-d2a0636fd26d";
                 if (string.IsNullOrEmpty(userId))
                 {
                     return Unauthorized(ApiResponse.ErrorResponse("İstifadəçi müəyyən edilmədi"));
@@ -453,7 +453,7 @@ namespace BitByBit.API.Controllers
         /// Rezervasiya axtarışı
         /// </summary>
         [HttpPost("search")]
-        [Authorize(Roles = "Admin")]
+        
         public async Task<IActionResult> SearchReservations([FromBody] ReservationSearchDto searchDto)
         {
             try
@@ -481,7 +481,7 @@ namespace BitByBit.API.Controllers
         /// Bu günkü check-in rezervasiyaları
         /// </summary>
         [HttpGet("today/check-ins")]
-        [Authorize(Roles = "Admin")]
+        
         public async Task<IActionResult> GetTodayCheckIns()
         {
             try
@@ -509,7 +509,7 @@ namespace BitByBit.API.Controllers
         /// Bu günkü check-out rezervasiyaları
         /// </summary>
         [HttpGet("today/check-outs")]
-        [Authorize(Roles = "Admin")]
+        
         public async Task<IActionResult> GetTodayCheckOuts()
         {
             try
@@ -537,7 +537,7 @@ namespace BitByBit.API.Controllers
         /// Rezervasiya statistikaları
         /// </summary>
         [HttpGet("statistics")]
-        [Authorize(Roles = "Admin")]
+        
         public async Task<IActionResult> GetReservationStatistics()
         {
             try

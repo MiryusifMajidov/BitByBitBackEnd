@@ -28,7 +28,7 @@ namespace BitByBit.Business.Services.Implementations
         private readonly IMapper _mapper;
         private readonly ILogger<UserService> _logger;
 
-        // Temporary code storage (Production-da Redis istifadə edilməlidir!)
+     
         private static readonly ConcurrentDictionary<string, (string Code, DateTime Expiry)> _confirmationCodes = new();
         private static readonly ConcurrentDictionary<string, (string Code, DateTime Expiry)> _resetCodes = new();
 
@@ -54,13 +54,12 @@ namespace BitByBit.Business.Services.Implementations
         {
             try
             {
-                // Email mövcudluq yoxlaması
+           
                 if (await IsEmailExistsAsync(registerDto.Email))
                 {
                     return ServiceResult.ErrorResult(ErrorMessages.UserAlreadyExists);
                 }
 
-                // User yaratmaq
                 var user = new User
                 {
                     UserName = registerDto.Email,
@@ -81,7 +80,7 @@ namespace BitByBit.Business.Services.Implementations
                     return ServiceResult.ErrorResult(ErrorMessages.SomethingWentWrong, errors);
                 }
 
-                // Email confirmation code göndər
+            
                 await SendEmailConfirmationCodeAsync(registerDto.Email);
 
                 _logger.LogInformation($"User registered successfully: {registerDto.Email}");
@@ -104,7 +103,6 @@ namespace BitByBit.Business.Services.Implementations
                     return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.InvalidCredentials);
                 }
 
-                // Status yoxlaması
                 if (user.Status == UserStatus.Banned)
                 {
                     return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.UserBanned);
@@ -115,13 +113,11 @@ namespace BitByBit.Business.Services.Implementations
                     return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.UserInactive);
                 }
 
-                // Email təsdiqi yoxlaması
                 if (!user.EmailConfirmed)
                 {
                     return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.EmailNotConfirmed);
                 }
 
-                // Şifrə yoxlaması
                 var result = await _signInManager.PasswordSignInAsync(user, loginDto.Password, loginDto.RememberMe, lockoutOnFailure: true);
 
                 if (!result.Succeeded)
@@ -134,15 +130,13 @@ namespace BitByBit.Business.Services.Implementations
                     return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.InvalidCredentials);
                 }
 
-                // Last login date update
+              
                 user.LastLoginDate = DateTime.Now;
                 await _userManager.UpdateAsync(user);
 
-                // JWT Token generate et
                 var accessToken = _jwtService.GenerateAccessToken(user);
                 var refreshToken = _jwtService.GenerateRefreshToken();
 
-                // Calculate token expiry
                 var tokenExpiry = DateTime.Now.AddHours(24);
 
                 var userResponse = _mapper.Map<UserResponseDto>(user);
@@ -165,75 +159,6 @@ namespace BitByBit.Business.Services.Implementations
             }
         }
 
-        //public async Task<ServiceResult<LoginResponseDto>> LoginAsync(LoginDto loginDto)
-        //{
-        //    try
-        //    {
-        //        var user = await _userManager.FindByEmailAsync(loginDto.Email);
-        //        if (user == null)
-        //        {
-        //            return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.InvalidCredentials);
-        //        }
-
-        //        // Status yoxlaması
-        //        if (user.Status == UserStatus.Banned)
-        //        {
-        //            return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.UserBanned);
-        //        }
-
-        //        if (user.Status == UserStatus.Inactive)
-        //        {
-        //            return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.UserInactive);
-        //        }
-
-        //        // Email təsdiqi yoxlaması
-        //        if (!user.EmailConfirmed)
-        //        {
-        //            return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.EmailNotConfirmed);
-        //        }
-
-        //        // Şifrə yoxlaması
-        //        var result = await _signInManager.PasswordSignInAsync(user, loginDto.Password, loginDto.RememberMe, lockoutOnFailure: true);
-
-        //        if (!result.Succeeded)
-        //        {
-        //            if (result.IsLockedOut)
-        //            {
-        //                return ServiceResult<LoginResponseDto>.ErrorResult("Hesab müvəqqəti bloklanıb. Sonra yenidən cəhd edin.");
-        //            }
-
-        //            return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.InvalidCredentials);
-        //        }
-
-        //        // Last login date update
-        //        user.LastLoginDate = DateTime.Now;
-        //        await _userManager.UpdateAsync(user);
-
-        //        // 🔐 JWT Token generate et - REAL JWT!
-        //        var accessToken = _jwtService.GenerateAccessToken(user);
-        //        var refreshToken = _jwtService.GenerateRefreshToken();
-
-        //        // Calculate token expiry
-        //        var tokenExpiry = DateTime.Now.AddHours(24); // JWT settings-dən alınacaq
-
-        //        var userResponse = _mapper.Map<UserResponseDto>(user);
-        //        var loginResponse = new LoginResponseDto
-        //        {
-        //            Token = accessToken,
-        //            RefreshToken = refreshToken,  // ← Refresh token əlavə edildi
-        //            Expires = tokenExpiry,
-        //            User = userResponse
-        //        };
-
-        //        _logger.LogInformation($"User logged in successfully with JWT: {loginDto.Email}");
-        //        return ServiceResult<LoginResponseDto>.SuccessResult(loginResponse, SuccessMessages.LoginSuccessful);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, $"Error during login: {loginDto.Email}");
-        //        return ServiceResult<LoginResponseDto>.ErrorResult(ErrorMessages.SomethingWentWrong);
-        //    }
-        //}
         public async Task<ServiceResult> LogoutAsync(string userId)
         {
             try
@@ -245,13 +170,10 @@ namespace BitByBit.Business.Services.Implementations
                     return ServiceResult.ErrorResult(ErrorMessages.UserNotFound);
                 }
 
-                // Cookie-based authentication sign out
                 await _signInManager.SignOutAsync();
 
-                // Update security stamp to invalidate existing tokens/cookies
                 await _userManager.UpdateSecurityStampAsync(user);
 
-                // Log the logout
                 _logger.LogInformation($"User logged out successfully: {user.Email}");
 
                 return ServiceResult.SuccessResult(SuccessMessages.LogoutSuccessful);
@@ -273,13 +195,10 @@ namespace BitByBit.Business.Services.Implementations
                     return ServiceResult.ErrorResult(ErrorMessages.UserNotFound);
                 }
 
-                // Update security stamp - bu bütün mövcud tokens/cookies-ləri invalidate edir
                 await _userManager.UpdateSecurityStampAsync(user);
 
-                // Sign out from current session
                 await _signInManager.SignOutAsync();
 
-                // Log the global logout
                 _logger.LogInformation($"User logged out from all devices: {user.Email}");
 
                 return ServiceResult.SuccessResult("Bütün cihazlardan uğurla çıxış etdiniz");
@@ -671,6 +590,26 @@ namespace BitByBit.Business.Services.Implementations
                 return ServiceResult<UserResponseDto>.ErrorResult(ErrorMessages.SomethingWentWrong);
             }
         }
+
+        public async Task<ServiceResult<List<UserResponseDto>>> GetAllUsersAsync()
+        {
+            try
+            {
+                var users = _userManager.Users
+                    .Where(u => !u.IsDeleted) 
+                    .ToList();
+
+                var userDtos = _mapper.Map<List<UserResponseDto>>(users);
+
+                return ServiceResult<List<UserResponseDto>>.SuccessResult(userDtos);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting all users");
+                return ServiceResult<List<UserResponseDto>>.ErrorResult("İstifadəçilər əldə edilə bilmədi");
+            }
+        }
+
 
         #endregion
 

@@ -16,7 +16,7 @@ namespace BitByBit.Business.DTOs.Reservation
         public decimal TotalAmount { get; set; }
         public DateTime CreatedDate { get; set; }
 
-        // Navigation Properties
+
         public RoomResponseDto? Room { get; set; }
         public UserResponseDto? User { get; set; }
     }
@@ -34,7 +34,7 @@ namespace BitByBit.Business.DTOs.Reservation
         [DataType(DataType.Date)]
         public DateTime EndDate { get; set; }
 
-        // Validation method
+   
         public bool IsValidDateRange()
         {
             return StartDate < EndDate && StartDate >= DateTime.Today;
@@ -56,7 +56,7 @@ namespace BitByBit.Business.DTOs.Reservation
         [DataType(DataType.Date)]
         public DateTime EndDate { get; set; }
 
-        // Validation method
+ 
         public bool IsValidDateRange()
         {
             return StartDate < EndDate && StartDate >= DateTime.Today;
@@ -95,7 +95,7 @@ namespace BitByBit.Business.DTOs.Reservation
         [DataType(DataType.Date)]
         public DateTime EndDate { get; set; }
 
-        public int? ExcludeReservationId { get; set; } // Update zamanı current reservation exclude etmək üçün
+        public int? ExcludeReservationId { get; set; } 
     }
 
     public class AvailabilityResponseDto

@@ -44,12 +44,12 @@ namespace BitByBit.Business.Services.Implementations
                 new(JwtRegisteredClaimNames.Iss, _jwtSettings.Issuer)
             };
 
-            // ✅ ROLE PROBLEM HƏLLİ - enum nullable deyil
-            claims.Add(new(ClaimTypes.Role, user.Role.ToString())); // "Admin", "User", "Moderator"
+          
+            claims.Add(new(ClaimTypes.Role, user.Role.ToString())); 
 
-            // ✅ Əlavə role claim-ləri
-            claims.Add(new("roleId", ((int)user.Role).ToString())); // "1", "2", "3"
-            claims.Add(new("roleName", user.Role.ToString())); // "Admin", "User", "Moderator"
+    
+            claims.Add(new("roleId", ((int)user.Role).ToString())); 
+            claims.Add(new("roleName", user.Role.ToString()));
 
             // Add phone number if exists
             if (!string.IsNullOrEmpty(user.PhoneNumber))
@@ -173,9 +173,6 @@ namespace BitByBit.Business.Services.Implementations
             return claims?.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
         }
 
-        /// <summary>
-        /// ✅ Role ID-ni token-dən əldə et
-        /// </summary>
         public int? GetRoleIdFromToken(string token)
         {
             var claims = GetClaimsFromToken(token);
@@ -183,9 +180,6 @@ namespace BitByBit.Business.Services.Implementations
             return int.TryParse(roleIdClaim, out var roleId) ? roleId : null;
         }
 
-        /// <summary>
-        /// ✅ UserRole enum-u token-dən əldə et  
-        /// </summary>
         public UserRole? GetUserRoleFromToken(string token)
         {
             var roleId = GetRoleIdFromToken(token);
@@ -215,23 +209,14 @@ namespace BitByBit.Business.Services.Implementations
 
         public async Task<(string AccessToken, string RefreshToken)> RefreshTokenAsync(string refreshToken)
         {
-            // In a real application, you would:
-            // 1. Validate refresh token against database
-            // 2. Get user from database using refresh token
-            // 3. Generate new access token and refresh token
-            // 4. Update refresh token in database
-            // 5. Return new tokens
-
-            // For now, return empty - implement when you add refresh token storage
+           
             await Task.CompletedTask;
             throw new NotImplementedException("Refresh token functionality requires database storage implementation");
         }
 
         public async Task RevokeRefreshTokenAsync(string refreshToken)
         {
-            // In a real application, you would:
-            // 1. Mark refresh token as revoked in database
-            // 2. Optionally revoke all refresh tokens for user
+           
 
             await Task.CompletedTask;
             throw new NotImplementedException("Refresh token revocation requires database storage implementation");
@@ -239,10 +224,7 @@ namespace BitByBit.Business.Services.Implementations
 
         public bool ValidateRefreshToken(string refreshToken)
         {
-            // In a real application, you would:
-            // 1. Check if refresh token exists in database
-            // 2. Check if it's not expired
-            // 3. Check if it's not revoked
+         
 
             throw new NotImplementedException("Refresh token validation requires database storage implementation");
         }
@@ -276,9 +258,7 @@ namespace BitByBit.Business.Services.Implementations
 
         #region Helper Methods
 
-        /// <summary>
-        /// Get token info for debugging - ✅ ENHANCED
-        /// </summary>
+      
         public object GetTokenInfo(string token)
         {
             try
@@ -307,9 +287,7 @@ namespace BitByBit.Business.Services.Implementations
             }
         }
 
-        /// <summary>
-        /// Decode token without validation (for debugging)
-        /// </summary>
+      
         public object DecodeToken(string token)
         {
             try
@@ -332,3 +310,4 @@ namespace BitByBit.Business.Services.Implementations
         #endregion
     }
 }
+

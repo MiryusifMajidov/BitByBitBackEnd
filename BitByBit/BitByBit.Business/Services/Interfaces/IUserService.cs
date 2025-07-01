@@ -85,9 +85,7 @@ namespace BitByBit.Business.Services.Interfaces
         /// </summary>
         Task<ServiceResult<UserResponseDto>> GetUserProfileAsync(string userId);
 
-        /// <summary>
-        /// İstifadəçi profili yeniləmə
-        /// </summary>
+        Task<ServiceResult<List<UserResponseDto>>> GetAllUsersAsync();
         Task<ServiceResult<UserResponseDto>> UpdateUserProfileAsync(string userId, UpdateProfileDto updateProfileDto);
 
         /// <summary>

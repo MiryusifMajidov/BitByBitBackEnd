@@ -91,9 +91,7 @@ namespace BitByBit.Business.Services.Implementations
 
         #region Template-based HTML Email Methods
 
-        /// <summary>
-        /// HTML Confirmation Code Email
-        /// </summary>
+       
         public async Task<bool> SendConfirmationCodeAsync(string toEmail, string firstName, string confirmationCode)
         {
             var subject = " Email Təsdiqi - BitByBit";
@@ -102,9 +100,7 @@ namespace BitByBit.Business.Services.Implementations
             return await SendHtmlEmailAsync(toEmail, subject, htmlBody);
         }
 
-        /// <summary>
-        /// HTML Welcome Email
-        /// </summary>
+ 
         public async Task<bool> SendWelcomeEmailAsync(string toEmail, string firstName)
         {
             var subject = " Xoş gəlmisiniz - BitByBit";
@@ -113,9 +109,7 @@ namespace BitByBit.Business.Services.Implementations
             return await SendHtmlEmailAsync(toEmail, subject, htmlBody);
         }
 
-        /// <summary>
-        /// HTML Password Reset Email
-        /// </summary>
+    
         public async Task<bool> SendPasswordResetCodeAsync(string toEmail, string firstName, string resetCode)
         {
             var subject = "🔑 Şifrə Sıfırlama - BitByBit";
@@ -128,9 +122,6 @@ namespace BitByBit.Business.Services.Implementations
 
         #region Fallback Text Methods (Backup)
 
-        /// <summary>
-        /// Text-only confirmation code (fallback)
-        /// </summary>
         public async Task<bool> SendConfirmationCodeTextAsync(string toEmail, string firstName, string confirmationCode)
         {
             var subject = "Email Təsdiqi - BitByBit";
@@ -149,9 +140,7 @@ BitByBit Team";
             return await SendEmailAsync(toEmail, subject, body);
         }
 
-        /// <summary>
-        /// Text-only welcome email (fallback)
-        /// </summary>
+       
         public async Task<bool> SendWelcomeTextAsync(string toEmail, string firstName)
         {
             var subject = "Xoş gəlmisiniz - BitByBit";
@@ -168,9 +157,6 @@ BitByBit Team";
             return await SendEmailAsync(toEmail, subject, body);
         }
 
-        /// <summary>
-        /// Text-only password reset (fallback)
-        /// </summary>
         public async Task<bool> SendPasswordResetTextAsync(string toEmail, string firstName, string resetCode)
         {
             var subject = "Şifrə Sıfırlama - BitByBit";
@@ -195,18 +181,13 @@ BitByBit Team";
 
         #region Advanced Email Methods
 
-        /// <summary>
-        /// Send custom HTML email with template
-        /// </summary>
+   
         public async Task<bool> SendCustomHtmlEmailAsync(string toEmail, string title, string content, string primaryColor = "#667eea")
         {
             var htmlBody = EmailTemplateHelper.GetGenericTemplate(title, content, primaryColor);
             return await SendHtmlEmailAsync(toEmail, title, htmlBody);
         }
 
-        /// <summary>
-        /// Send bulk emails (for newsletters, notifications, etc.)
-        /// </summary>
         public async Task<bool> SendBulkEmailAsync(List<string> toEmails, string subject, string htmlBody)
         {
             var tasks = toEmails.Select(email => SendHtmlEmailAsync(email, subject, htmlBody));
@@ -214,9 +195,7 @@ BitByBit Team";
             return results.All(result => result);
         }
 
-        /// <summary>
-        /// Send email with attachment
-        /// </summary>
+        
         public async Task<bool> SendEmailWithAttachmentAsync(string toEmail, string subject, string htmlBody, string attachmentPath, string attachmentName)
         {
             try
@@ -231,7 +210,7 @@ BitByBit Team";
                     HtmlBody = htmlBody
                 };
 
-                // Add attachment with custom name
+                
                 if (File.Exists(attachmentPath))
                 {
                     var attachment = new MimePart()
